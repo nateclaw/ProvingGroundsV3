@@ -8,7 +8,7 @@ public class ProvingGroundsV3EditorTarget : TargetRules
 	public ProvingGroundsV3EditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
-		DefaultBuildSettings = BuildSettingsVersion.V6;
+		DefaultBuildSettings = BuildSettingsVersion.V7;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_7;
 		ExtraModuleNames.Add("ProvingGroundsV3");
 	}
